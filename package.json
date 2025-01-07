@@ -1,0 +1,15 @@
+{
+  "name": "10-repo-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "Samar Khaled",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.5.5"
+  }
+}
