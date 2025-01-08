@@ -147,19 +147,26 @@ button:hover {
 
 
 
-.footer {
-  background-color:#4CAF50;
+ .footer {
+  background-color: #4CAF50;
   color: white;
-  padding: 50px;
+  padding: 50px 20px;
   text-align: center;
-  clip-path: polygon(0% 20%, 10% 30%, 30% 10%, 50% 30%, 70% 10%, 90% 30%, 100% 20%, 100% 100%, 0% 100%);
-
+  clip-path: polygon(0% 25%, 10% 35%, 30% 15%, 50% 35%, 70% 15%, 90% 35%, 100% 25%, 100% 100%, 0% 100%);
+  position: relative;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px; 
+}
+
+.footer .socials {
+  margin-top: 20px; 
+  position: relative;
+  z-index: 1;
 }
 
 .footer .socials a,
@@ -170,25 +177,22 @@ button:hover {
 }
 
 .footer .socials a:hover {
-  color:#CDDB9E;
+  color: #CDDB9E;
 }
 
-
-
 .footer .socials i {
-  margin-right: 8px; 
+  margin-right: 8px;
   font-size: 15px;
 }
 
 .footer .footer-logo {
   border-radius: 50%;
   border: 3px #CDDB9E solid;
-  width: 50%;  
-  max-width: 150px; 
-  height: auto;  
+  width: 50%;
+  max-width: 150px;
+  height: auto;
   margin-bottom: 0px;
 }
-
 
 @media (max-width: 767px) {
   .footer-content {
@@ -198,32 +202,25 @@ button:hover {
 
   .footer .socials {
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 10px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px; 
+    margin-top: 5px; 
   }
 
   .footer .socials a {
-    font-size: 10px; 
-    margin-top: 20px;
+    font-size: 11px; 
+    margin: 3px; 
   }
 
   .footer .socials i {
-    font-size: 20px; 
+    font-size: 16px; 
   }
 
   .footer .footer-logo {
-    width: 50px; 
-    height: 50px;
-    margin-bottom: 15px;
-  }
-
-  .footer .logo-section {
-    margin-top: 5px; 
-
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 5px;
   }
 }
-
-
-
